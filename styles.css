@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+#display {
+    font-size: 6rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 120px;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
